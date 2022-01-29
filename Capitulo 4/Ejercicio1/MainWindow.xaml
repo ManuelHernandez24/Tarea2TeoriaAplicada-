@@ -1,0 +1,20 @@
+﻿<Window x:Class="Ejercicio1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio1"
+        mc:Ignorable="d"
+        Title="Table del 1 al 10" Height="500" Width="300">
+    <Grid>
+        
+        <StackPanel Margin = "15" Orientation = "Vertical">
+            <TextBlock Text = "Ingrese el numero: " FontSize = "24"/>
+            <TextBox Name = "TextBoxNumero"  FontSize = "24"/>
+		    <Button Content = "Calcular" FontSize = "24" Click = "CalcularButton_Click"/>
+            <TextBox Name = "TextBoxTabla"  FontSize = "24" TextWrapping="Wrap" Height="400"  />
+        
+	</StackPanel>
+    </Grid>
+</Window>
+
